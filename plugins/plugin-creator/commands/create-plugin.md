@@ -112,7 +112,17 @@ Go through each skill one at a time. For each skill:
 
 4. **Verification section** — Ask: "How would you verify this was done right?" List specific criteria.
 
-After completing each skill, ask: **"Ready for the next skill, or want to refine this one?"**
+After completing each skill, **suggest a complementary skill** based on what they just built. Analyze the skill's domain and recommend a natural companion. Examples:
+
+- Built a `review-checklist`? → "Your review skill covers general quality. Want a **security-focused review** skill that catches auth issues, injection risks, and secret leaks?"
+- Built a `deploy-checklist`? → "You've got pre-deploy covered. Want a **rollback-runbook** skill for when deployments go wrong?"
+- Built a `test-patterns`? → "Good test standards. Want a **test-coverage-check** skill that verifies edge cases and boundary conditions?"
+- Built an `api-design`? → "You've got API structure down. Want an **error-handling** skill for consistent error responses and status codes?"
+- Built a `code-style`? → "Style is covered. Want a **naming-conventions** skill for variables, functions, and file names?"
+
+Frame it as: "Based on what you just built, teams usually also need [specific suggestion]. Want to add it?" — not a generic "add another?"
+
+If they say yes, create the new skill folder and fill it in the same way. If no, move on.
 
 Keep each skill 30-80 lines. If it's longer, split into two skills.
 
