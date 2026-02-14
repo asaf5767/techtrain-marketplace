@@ -13,7 +13,7 @@ Course marketplace for the **Context-Driven AI Orchestration** workshop.
 
 ```bash
 # Add this marketplace
-/plugin marketplace add instructor-gh-user/techtrain-marketplace
+/plugin marketplace add asaf5767/techtrain-marketplace
 
 # Install the plugin creator
 /plugin install plugin-creator@techtrain-marketplace
