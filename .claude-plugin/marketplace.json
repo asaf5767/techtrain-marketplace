@@ -1,0 +1,19 @@
+{
+  "name": "techtrain-marketplace",
+  "description": "TechTrain course marketplace — plugin creator tool + sample plugins",
+  "owner": {
+    "name": "TechTrain Instructor"
+  },
+  "plugins": [
+    {
+      "name": "plugin-creator",
+      "source": "./plugins/plugin-creator",
+      "description": "Scaffolds new plugins and marketplaces with /techtrain:create-plugin"
+    },
+    {
+      "name": "hello-skill",
+      "source": "./plugins/hello-skill",
+      "description": "Sample plugin — a minimal greeting style skill (reference only)"
+    }
+  ]
+}

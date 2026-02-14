@@ -1,0 +1,5 @@
+{
+  "name": "plugin-creator",
+  "description": "Helps you create Claude Code plugins and marketplaces. Use /techtrain:create-plugin to start.",
+  "version": "1.0.0"
+}
